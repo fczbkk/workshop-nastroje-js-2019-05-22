@@ -9,5 +9,15 @@
   "bugs": {
     "url": "https://github.com/fczbkk/workshop-nastroje-js-2019-05-22/issues"
   },
-  "homepage": "https://github.com/fczbkk/workshop-nastroje-js-2019-05-22#readme"
+  "homepage": "https://github.com/fczbkk/workshop-nastroje-js-2019-05-22#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "cleanup": "rimraf ./temp",
+    "build": "babel ./src --out-dir ./build --config-file ./configs/babel.json"
+  }
 }
