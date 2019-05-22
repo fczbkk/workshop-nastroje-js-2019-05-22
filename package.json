@@ -1,0 +1,13 @@
+{
+  "name": "workshop-nastroje-js-2019-05-22",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczbkk/workshop-nastroje-js-2019-05-22.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczbkk/workshop-nastroje-js-2019-05-22/issues"
+  },
+  "homepage": "https://github.com/fczbkk/workshop-nastroje-js-2019-05-22#readme"
+}
